@@ -12,7 +12,7 @@ import (
 
 func TestAcceptance(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "acceptance")
+	RunSpecs(t, "Acceptance Suite")
 }
 
 var pathToCFNet string
