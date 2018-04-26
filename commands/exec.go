@@ -30,7 +30,7 @@ var execCmd = &cobra.Command{
 
 		err := exec.Execute(containerID, command, commandArgs)
 		if err != nil {
-			panic(err)
+			return err
 		}
 	},
 }
