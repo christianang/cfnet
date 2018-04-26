@@ -1,2 +1,2 @@
 # cfnet
-A cli designed to interact with container-to-container components in CloudFoundry
+A cli designed to interact with container-to-container networking components in CloudFoundry
