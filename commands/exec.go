@@ -1,6 +1,7 @@
 package commands
 
 import (
+	"fmt"
 	"os"
 
 	"github.com/christianang/cfnet/adapter"
@@ -30,7 +31,8 @@ var execCmd = &cobra.Command{
 
 		err := exec.Execute(containerID, command, commandArgs)
 		if err != nil {
-			return err
+			fmt.Println(err)
+			os.Exit(1)
 		}
 	},
 }
