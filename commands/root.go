@@ -7,8 +7,7 @@ var RunCRoot string
 var RootCmd = &cobra.Command{
 	Use:   "cfnet",
 	Short: "A cli to interact with container-to-container components in CF.",
-	Long: `A cli to interact with container-to-container components
-	in CloudFoundry.`,
+	Long:  `A cli to interact with container-to-container networking components in CloudFoundry.`,
 }
 
 func init() {
